@@ -6,6 +6,8 @@ Fue desarrolllado con HTML, CSS y JS con el uso del framework de UI Bootstrap, u
 
 La página es responsiva (adaptable a diferentes tamaños de pantalla <!-- dispositivos -->) e incluye la presentación de la autora del proyecto.
 
+[Proyecto Desplegado](https://roguvi.netlify.app/)
+
 ## Secciones de mi sitio
 
 ![Presentación](assets/readme/section1.png)
