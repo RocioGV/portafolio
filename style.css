@@ -4,3 +4,22 @@
     justify-content: start;
     align-items: center;
 }
+
+#proyecto-1{
+    background-image: url('assets/p-image01.jpg');
+}
+
+#proyecto-2{
+    background-image: url('assets/p-image02.png');
+}
+
+.proyecto{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.text-shadow-1{
+    text-shadow: -2px 0px 6px rgba(0, 0, 0, 1);
+}
+
