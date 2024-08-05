@@ -32,9 +32,9 @@ let typewriterFrase = new Typewriter(frase, {
 
 typewriterFrase
   .pauseFor(2500)
-  .typeString('“In God we trust, all others must bring Data.”')
+  .typeString('"Remember: Statistics don’t lie, people do"')
   .pauseFor(300)
   .deleteAll()
-  .typeString('Dr. W. Edwards Deming')
+  .typeString('Elizabeth Bogner')
   .pauseFor(1000)
   .start();

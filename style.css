@@ -4,7 +4,7 @@ body{
 }
 
 #presentacion{
-    height: 100vh;
+    height: 140vh;
     display: flex;
     justify-content: start;
     align-items: center;
