@@ -10,7 +10,11 @@ La página es responsiva (adaptable a diferentes tamaños de pantalla <!-- dispo
 
 ## Secciones de mi sitio
 
-![Presentación](assets/readme/section1.png)
+![Presentación](assets/readme/s-01.png)
+![Habilidades](assets/readme/s-02.png)
+![Proyectos](assets/readme/s-03.png)
+![Testimonios](assets/readme/s-04.png)
+![Contacto](assets/readme/s-05.png)
 
 
 ## Tecnología

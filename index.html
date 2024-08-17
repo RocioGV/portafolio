@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -24,7 +24,7 @@
 <body>
 
     <header>
-        <nav class="navbar navbar-expand-md bg-dark fixed-top">
+        <nav class="navbar navbar-expand-md fixed-top navbar-dark">
             <div class="container">
                 <a class="navbar-brand text-white-custom lexend-extrabold" href="#">Rocío Guevara</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -54,7 +54,7 @@
         </nav>
     </header>
 
-    <main class="pb-5">
+    <main>
         <section id="presentacion" class="container-fluid" data-bs-theme="dark">
             <div class="container col-xxl-8 px-4 py-5 justify-content-start align-items-center text-white-custom">
                 <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
@@ -65,90 +65,88 @@
                     </div>
 
                     <div class="col-lg-6">
-                        <h1 id="about-me" class="display-5 lexend-extrabold text-body-emphasis lh-1 mb-4">Rocío Guevara
+                        <h1 id="about-me" class="display-5 lexend-extrabold text-body-emphasis lh-1 mb-4 fs-1">Rocío
+                            Guevara
                             Villela
                         </h1>
                         <!-- Presentación personal -->
-                        <p class="lead lexend-regular mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Duis quam purus, vestibulum quis enim ullamcorper, egestas lacinia quam. Fusce id nisl
-                            augue. Cras ultrices fermentum lacus, eget rhoncus elit egestas eu.</p>
+                        <p class="lead lexend-regular mb-4">Estudiante de Ingeniería en Tecnología de
+                            Software. Actualmente estoy aprendiendo tecnologías de desarrollo web en el
+                            área de Front End de forma independiente. Fan de la música pop, el arte digital y
+                            diseño web.</p>
 
                         <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                            <button type="button"
-                                class="btn btn-contact btn-lg px-4 me-md-2 lexend-medium">Contáctame</button>
-                            <!-- <button type="button" class="btn btn-outline-secondary btn-lg px-4 lexend-medium">rocioguvi@gmail.com</button> -->
+                            <a href="mailto:rocioguvi@gmail.com">
+                                <button type="button"
+                                    class="btn btn-contact btn-lg px-4 me-md-2 lexend-medium">Contáctame</button>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="habilidades" class="container px-4 py-5">
-            <!-- Título de la sección -->
-            <h2 class="pb-2 border-bottom">Habilidades</h2>
+        <section id="habilidades" class="container-fluid">
+            <div class="container px-4 py-6">
+                <!-- Título de la sección -->
+                <h2 class="pb-3 border-yellow lexend-extrabold title-size">HABILIDADES</h2>
 
-            <!-- Contenedor de mis cartas -->
-            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-                <div class="feature col">
-                    <div
-                        class="d-inline-flex align-items-center justify-content-center text-light bg-dark fs-2 py-2 px-3 rounded-3">
-                        <i class="bi bi-code-square"></i>
+                <!-- Contenedor de mis cartas -->
+                <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+                    <div class="feature col px-3">
+                        <div
+                            class="d-inline-flex align-items-center justify-content-center bg-yellow fs-2 py-3 px-3 rounded-3">
+                            <img src="assets/code.svg" alt="Code">
+                        </div>
+                        <h3 class="my-3 lexend-bold">Desarrollo web</h3>
+                        <p class="fs-5">Conocimientos en HTML, JS y CSS.</p>
                     </div>
-                    <h3 class="fs-2 my-3">Desarrollo web</h3>
-                    <p>Conocimientos en HTML, JS y CSS.</p>
-                </div>
-                <div class="feature col">
-                    <div
-                        class="d-inline-flex align-items-center justify-content-center text-light bg-dark fs-2 py-2 px-3 rounded-3">
-                        <i class="bi bi-code-square"></i>
+                    <div class="feature col px-3">
+                        <div
+                            class="d-inline-flex align-items-center justify-content-center bg-yellow fs-2 py-3 px-3 rounded-3">
+                            <img src="assets/excel.svg" alt="Excel">
+                        </div>
+                        <h3 class="my-3 lexend-bold">Análisis y Visualización de Datos</h3>
+                        <p class="fs-5">Conocimientos en Excel y PowerBi.</p>
                     </div>
-                    <h3 class="fs-2 my-3">Análisis y Visualización de Datos</h3>
-                    <p>Conocimientos en Excel y PowerBi.</p>
-                </div>
-                <div class="feature col">
-                    <div
-                        class="d-inline-flex align-items-center justify-content-center text-light bg-dark fs-2 py-2 px-3 rounded-3">
-                        <i class="bi bi-code-square"></i>
+                    <div class="feature col px-3">
+                        <div
+                            class="d-inline-flex align-items-center justify-content-center bg-yellow fs-2 py-3 px-3 rounded-3">
+                            <img src="assets/language.svg" alt="Idiomas">
+                        </div>
+                        <h3 class="my-3 lexend-bold">Idiomas</h3>
+                        <p class="fs-5">Español (Nativo) e Inglés (Avanzado).</p>
                     </div>
-                    <h3 class="fs-2 my-3">Idiomas</h3>
-                    <p>Español (Nativo) e Inglés (Avanzado).</p>
-                </div>
 
+                </div>
             </div>
         </section>
 
-        <section id="proyectos" class="container px-4 py-5" id="custom-cards">
-            <h2 class="pb-2 border-bottom">Proyectos</h2>
+        <section id="proyectos" class="container px-4 py-7" id="custom-cards">
+            <h2 class="pb-3 border-yellow lexend-extrabold title-size text-end text-y">PROYECTOS</h2>
 
             <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
 
                 <div class="col">
 
-                    <div id="proyecto-1"
-                        class="proyecto card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                    <div id="proyecto-1" class="proyecto card card-cover h-100 text-bg-dark rounded-4 shadow-lg">
 
-                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white">
+                        <div class="container-fluid bg-black opacity-75 rounded-4 h-100">
+                            <div class="d-flex flex-column h-100 p-5 pb-4 p-lg-4 justify-content-end">
+                                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 lexend-bold">Clon de Google</h3>
 
-                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold text-shadow-1">Clon de Google</h3>
-
-                            <ul class="d-flex list-unstyled mt-auto">
-                                <li class="me-auto">
-                                    <a class="link-dark icon-link icon-link-hover"
-                                        href="https://github.com/RocioGV/clon-google" target="_blank">
-                                        Enlace al repositorio
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                            fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
-                                            <path fill-rule="evenodd"
-                                                d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5">
-                                            </path>
-                                            <path fill-rule="evenodd"
-                                                d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z">
-                                            </path>
-                                        </svg>
+                                <div class="d-flex gap-2 justify-content-start py-3 mb-2">
+                                    <a href="https://github.com/RocioGV/clon-google" target="_blank">
+                                        <button
+                                            class="btn btn-primary d-inline-flex align-items-center px-4 py-2 text-start"
+                                            type="button">
+                                            <img src="assets/github-y.svg" alt="Github">
+                                            <p class="px-3 m-0 lexend-medium">Enlace de Github</p>
+                                        </button>
                                     </a>
-                                </li>
-                            </ul>
+                                </div>
 
+                            </div>
                         </div>
 
                     </div>
@@ -157,32 +155,24 @@
 
                 <div class="col">
 
-                    <div id="proyecto-2"
-                        class="proyecto card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                    <div id="proyecto-2" class="proyecto card card-cover h-100 text-bg-dark rounded-4 shadow-lg">
 
-                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white">
+                        <div class="container-fluid bg-black opacity-75 rounded-4 h-100">
+                            <div class="d-flex flex-column h-100 p-5 pb-4 p-lg-4 justify-content-end">
+                                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 lexend-bold">Pawfect</h3>
 
-                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold text-shadow-1">Aplicación móvil - Pawfect
-                            </h3>
-
-                            <ul class="d-flex list-unstyled mt-auto">
-                                <li class="me-auto">
-                                    <a class="link-dark icon-link icon-link-hover"
-                                        href="https://github.com/RocioGV/clon-google" target="_blank">
-                                        Enlace al repositorio
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                            fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
-                                            <path fill-rule="evenodd"
-                                                d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5">
-                                            </path>
-                                            <path fill-rule="evenodd"
-                                                d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z">
-                                            </path>
-                                        </svg>
+                                <div class="d-flex gap-2 justify-content-start py-3 mb-2">
+                                    <a href="https://github.com/GaelAlguiar/Dismov-app" target="_blank">
+                                        <button
+                                            class="btn btn-primary d-inline-flex align-items-center px-4 py-2 text-start"
+                                            type="button">
+                                            <img src="assets/github-y.svg" alt="Github">
+                                            <p class="px-3 m-0 lexend-medium">Enlace de Github</p>
+                                        </button>
                                     </a>
-                                </li>
-                            </ul>
+                                </div>
 
+                            </div>
                         </div>
 
                     </div>
@@ -191,31 +181,24 @@
 
                 <div class="col">
 
-                    <div id="proyecto-3"
-                        class="proyecto card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                    <div id="proyecto-3" class="proyecto card card-cover h-100 text-bg-dark rounded-4 shadow-lg">
 
-                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white">
+                        <div class="container-fluid bg-black opacity-75 rounded-4 h-100">
+                            <div class="d-flex flex-column h-100 p-5 pb-4 p-lg-4 justify-content-end">
+                                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 lexend-bold">Portafolio</h3>
 
-                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold text-shadow-1">-</h3>
-
-                            <ul class="d-flex list-unstyled mt-auto">
-                                <li class="me-auto">
-                                    <a class="link-dark icon-link icon-link-hover"
-                                        href="https://github.com/RocioGV/clon-google" target="_blank">
-                                        Enlace al repositorio
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                            fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
-                                            <path fill-rule="evenodd"
-                                                d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5">
-                                            </path>
-                                            <path fill-rule="evenodd"
-                                                d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z">
-                                            </path>
-                                        </svg>
+                                <div class="d-flex gap-2 justify-content-start py-3 mb-2">
+                                    <a href="https://github.com/RocioGV/portafolio" target="_blank">
+                                        <button
+                                            class="btn btn-primary d-inline-flex align-items-center px-4 py-2 text-start"
+                                            type="button">
+                                            <img src="assets/github-y.svg" alt="Github">
+                                            <p class="px-3 m-0 lexend-medium">Enlace de Github</p>
+                                        </button>
                                     </a>
-                                </li>
-                            </ul>
+                                </div>
 
+                            </div>
                         </div>
 
                     </div>
@@ -225,11 +208,13 @@
             </div>
         </section>
 
-        <section id="testimonios">
-            <h1 class="text-center pb-4">Testimonios</h1>
-            <div id="myCarousel" class="carousel slide carousel-dark mb-6" data-bs-theme="dark" data-bs-ride="carousel">
+        <section id="testimonios" class="container-fluid">
+            <div class="container px-4 py-6">
+                <h1 class="text-center pb-3 border-yellow lexend-extrabold title-size">TESTIMONIOS</h1>
+                <div id="myCarousel" class="carousel slide carousel-dark mb-6 pt-5" data-bs-theme="dark"
+                    data-bs-ride="carousel">
 
-                <!-- <div class="carousel-indicators">
+                    <!-- <div class="carousel-indicators">
                     <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
                         aria-label="Slide 1" aria-current="true"></button>
                     <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"
@@ -238,73 +223,76 @@
                         class=""></button>
                 </div> -->
 
-                <div class="carousel-inner">
+                    <div class="carousel-inner">
 
-                    <div class="carousel-item active">
-                        <article class="container text-center">
-                            <img src="assets/avatar.PNG" height="200" alt="Testimonio 1">
-                            <h3 class="my-3">Testimonio 1</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam sed quidem, quod illum
-                                sint dicta illo sit eveniet amet reiciendis at, ipsum adipisci molestiae velit iure!
-                                Alias soluta asperiores eum?</p>
-                        </article>
+                        <div class="carousel-item active">
+                            <article class="container text-center w-75">
+                                <img src="assets/avatar.PNG" height="200" alt="Testimonio 1">
+                                <h3 class="my-3 lexend-medium">María Fernanda Guerrero</h3>
+                                <p class="lexend-regular">"Trabajar con Rocío es una experiencia excepcional. Siempre
+                                    encuentra la forma de resolver problemas complicados con su creatividad y presta
+                                    atención a cada detalle en los proyectos. Desde el primer día, dejó en claro que se
+                                    compromete con lo que hace, siempre buscando formas innovadoras de hacer las cosas."
+                                </p>
+                            </article>
+                        </div>
+
+                        <div class="carousel-item">
+                            <article class="container text-center w-75">
+                                <img src="assets/avatar.PNG" height="200" alt="Testimonio 2">
+                                <h3 class="my-3 lexend-medium">Luis Mario Medellín</h3>
+                                <p class="lexend-regular">"La mejor diseñadora UX que he conocido, tiene una gran
+                                    habilidad para crear interfaces con un diseño atractivo, minimalista, eficiente y
+                                    amigable con el usuario."</p>
+                            </article>
+                        </div>
+
+                        <div class="carousel-item">
+                            <article class="container text-center w-75">
+                                <img src="assets/avatar.PNG" height="200" alt="Testimonio 3">
+                                <h3 class="my-3 lexend-medium">Jesús Garza</h3>
+                                <p class="lexend-regular">"Trabajar con Rocío ha sido una experiencia sumamente
+                                    agradable
+                                    a la hora de realizar los proyectos. Es una persona muy organizada, con una gran
+                                    habilidad a la hora de realizar todo tipo de diseños y gran entusiasmo a la hora de
+                                    sacar adelante cada proyecto."</p>
+                            </article>
+                        </div>
+
                     </div>
 
-                    <div class="carousel-item">
-                        <article class="container text-center">
-                            <img src="assets/avatar.PNG" height="200" alt="Testimonio 2">
-                            <h3 class="my-3">Testimonio 2</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam sed quidem, quod illum
-                                sint dicta illo sit eveniet amet reiciendis at, ipsum adipisci molestiae velit iure!
-                                Alias soluta asperiores eum?</p>
-                        </article>
-                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
 
-                    <div class="carousel-item">
-                        <article class="container text-center">
-                            <img src="assets/avatar.PNG" height="200" alt="Testimonio 3">
-                            <h3 class="my-3">Testimonio 3</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam sed quidem, quod illum
-                                sint dicta illo sit eveniet amet reiciendis at, ipsum adipisci molestiae velit iure!
-                                Alias soluta asperiores eum?</p>
-                        </article>
-                    </div>
+                    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
 
                 </div>
-
-                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-
-                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-
             </div>
         </section>
 
     </main>
 
-    <footer id="contacto" class="py-3 bg-dark mt-5" data-bs-theme="dark">
-        <h4 id="frase" class="text-white text-center my-5">“Remember: Statistics don't lie, people do”</h4>
-        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+    <footer id="contacto" class="py-5" data-bs-theme="dark">
+        <h4 id="frase" class="text-center my-5 league-spartan-regular">“Remember: Statistics don't lie, people do”</h4>
+        <ul class="nav justify-content-center border-bottom pb-5">
             <!-- Para cambiar el color del ícono, se agrega la clase a "i" -->
-            <li class="nav-item fs-1"><a href="https://github.com/RocioGV" target="_blank"
+            <li class="nav-item fs-1"><a href="https://www.linkedin.com/in/rocio-guevara0103" target="_blank"
                     class="nav-link px-4 text-body-secondary">
-                    <i class="bi bi-github"></i>
+                    <img src="assets/linkedin.svg" alt="LinkedIn">
                 </a></li>
             <li class="nav-item fs-1"><a href="https://github.com/RocioGV" target="_blank"
                     class="nav-link px-4 text-body-secondary">
-                    <i class="bi bi-linkedin"></i>
-                </a></li>
-            <li class="nav-item fs-1"><a href="https://github.com/RocioGV" target="_blank"
-                    class="nav-link px-4 text-body-secondary">
-                    <i class="bi bi-envelope"></i>
+                    <img src="assets/github.svg" alt="Github">
                 </a></li>
         </ul>
-        <p class="text-center text-body-secondary">© 2024 Rocío Guevara</p>
+        <p class="text-center text-body-secondary lexend-regular mt-4">© 2024 Rocío Guevara</p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

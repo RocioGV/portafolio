@@ -15,12 +15,23 @@ body{
     background-position: center;
 }
 
+#presentacion p{
+    text-align: justify;
+}
+
 #proyecto-1{
     background-image: url('assets/p-image01.jpg');
+    border: none;
 }
 
 #proyecto-2{
     background-image: url('assets/p-image02.png');
+    border: none;
+}
+
+#proyecto-3{
+    background-image: url('assets/p-image03.png');
+    border: none;
 }
 
 .proyecto{
@@ -31,6 +42,10 @@ body{
 
 .text-shadow-1{
     text-shadow: -2px 0px 6px rgba(0, 0, 0, 1);
+}
+
+.title-size{
+    font-size: 45px;
 }
 
 .lexend-extrabold{
@@ -54,17 +69,10 @@ body{
     font-style: normal;
 }
 
-.lexend-regular{
+.lexend-regular , #habilidades p{
     font-family: "Lexend", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
-    font-style: normal;
-}
-
-.league-spartan-semibold{
-    font-family: "League Spartan", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
     font-style: normal;
 }
 
@@ -73,6 +81,8 @@ body{
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    font-size: 35px;
+    color: #F6F2FF;
 }
 
 .text-white-custom{
@@ -88,4 +98,63 @@ body{
     color: #F6F2FF;
     background-color: #207666;
 
+}
+
+.border-yellow{
+    border-bottom: 4px solid #F4D35E;
+}
+
+#testimonios , #habilidades{
+    background-color: #F6F2FF;
+    color: #272629;
+}
+
+.py-6{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.py-7{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+nav{
+    background-color: #272629;
+}
+
+.bg-yellow{
+    background-color: #F4D35E;
+}
+
+.text-y{
+    color: #F4D35E;
+}
+
+#habilidades h3 , #testimonios h3{
+    font-size: 30px;
+}
+
+#proyectos h3{
+    font-size: 50px;
+}
+
+#habilidades img{
+    width: 50px;
+}
+
+#proyectos img{
+    width: 30px;
+}
+
+#contacto img{
+    width: 60px;
+}
+
+#proyectos button{
+    background-color: transparent;
+    border: 2px solid #F4D35E;
+    border-radius: 10px;
+    color: #F6F2FF;
+    font-size: 18px;
 }
